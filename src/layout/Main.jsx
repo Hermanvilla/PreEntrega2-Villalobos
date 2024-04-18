@@ -21,8 +21,6 @@ function Main() {
 
                 <Route path='/contact' element={<Contacto/>} />
 
-                {/* /horacio  - /personajes/73428949 - / */}
-                <Route path="*" element={<p>No encontrado</p>} />
 
             </Routes>
         </main>
