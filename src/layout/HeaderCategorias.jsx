@@ -1,25 +1,20 @@
-import Logo from "./logo"
-import Navbar from "./Navbar"
+import NavbarCategorias from "./NavbarCategorias"
 import { Routes, Route } from "react-router-dom"
-import Books from "../pages/Books"
 
-function Header() {
+function HeaderCategorias() {
     return (
-        <header className="flex justify-between p-4 text-black shadow-md bg-white">
-
-            <Logo/>
+        <header className="flex justify-center p-4 text-black shadow-md bg-white rounded-xl ">
 
             <Routes>
                 <Route path="/manga" element={
                     <input type="text" placeholder="Buscar por nombre:" className="p-2 rounded-md"/>
                 } />
-
             </Routes>
 
-            <Navbar />
+            <NavbarCategorias/>
 
         </header>
     )
 }
 
-export default Header
+export default HeaderCategorias

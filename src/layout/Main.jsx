@@ -3,7 +3,7 @@ import Nosotros from "../pages/Nosotros"
 import Cultura from '../pages/Cultura'
 import Books from '../pages/Books'
 import Contacto from '../pages/Contacto'
-import BookContainer from '../pages/BookContainer'
+import ItemDetailContainer from './ItemDetailContainer'
 
 function Main() {
     return (
@@ -12,11 +12,13 @@ function Main() {
 
                 <Route path='/nosotros' element={<Nosotros/>} />
 
-                <Route path='/recursos' element={<Books/>} />
+                <Route path='/manga' element={<Books/>} />
+
+                <Route path='/:categoria' element={<Books/>} />
+
+                <Route path='/manga/:id' element={<ItemDetailContainer/>} />
                 
                 <Route path='/cultura' element={<Cultura/>} />
-
-                <Route path="/books/:id" element={<BookContainer/>}/>
 
                 <Route path='/contacto' element={<Contacto/>} />
 

@@ -9,7 +9,7 @@ function Navbar() {
 
                 <Link className="px-4 -mb-1 border-b-2 dark:border-" to="/nosotros">Nosotros</Link>
 
-                <Link className="px-4 -mb-1 border-b-2 dark:border-" to="/recursos">Recursos</Link>
+                <Link className="px-4 -mb-1 border-b-2 dark:border-" to="/manga">Manga</Link>
                 
                 <Link className="px-4 -mb-1 border-b-2 dark:border-" to="/cultura">Cultura</Link>
 

@@ -8,7 +8,7 @@ function NavbarF() {
 
                 <Link className="px-4 -mb-1" to="/nosotros">Nosotros</Link>
 
-                <Link className="px-4 -mb-1" to="/recursos">Recursos</Link>
+                <Link className="px-4 -mb-1" to="/manga">Manga</Link>
                 
                 <Link className="px-4 -mb-1" to="/cultura">Cultura</Link>
 

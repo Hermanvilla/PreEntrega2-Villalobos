@@ -1,33 +1,33 @@
 import { useEffect, useState } from "react"
-import ItemCard from "./ItemCard"
+import ItemList from "./ItemList"
+import pedirProductos from "./pedirProductos"
+import { useParams } from "react-router-dom"
 
-function ItemListContainer() {
+const ItemListContainer = () => {
 
-    const [books, setBooks] = useState([])
+    const [productos, setProductos] = useState([])
+    const categoria = useParams().categoria;
+    console.log(categoria);
 
-
-    useEffect(() => {
-
-
-        fetch("/books.json")
-            pedido.then((res) => {
-                return res.json()
-            })
+    useEffect (() => {
+        pedirProductos()
             .then((res) => {
-                setBooks(res.results)
+                if (categoria){
+                    setProductos(res.filter ((producto) => producto.categoria === categoria));
+                } else {
+                    setProductos(res)
+                }
+                
             })
-            .catch((err) => {
-                console.log(err)
-            })
-            
-    }, [])
+    }, [categoria])
 
     return (
-        <>
-            {books.map((book) => {
-                return <ItemCard key={book.id} book={book} />
-            })}
-        </>
-    )
+        <div>
+        <ItemList productos={productos} />
+        </div>
+            )
+
 }
+
+
 export default ItemListContainer

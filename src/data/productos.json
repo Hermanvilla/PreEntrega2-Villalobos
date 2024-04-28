@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "name": "One Piece",
+    "categoria": "adventure",
+    "imagen": "../public/imagenes/one_piece_cover.jpeg",
+    "descripcion": "Monkey D. Luffy se propone convertirse en el rey de los piratas al encontrar el legendario tesoro, One Piece, junto a su tripulación de piratas diversa y poderosa."
+  },
+  {
+    "id": "2",
+    "name": "Naruto",
+    "categoria": "action",
+    "imagen": "../public/imagenes/naruto_cover.jpeg",
+    "descripcion": "Naruto Uzumaki, un joven ninja con sueños de convertirse en el ninja más fuerte y líder de su aldea, emprende varias misiones y batallas para proteger a sus amigos y a su aldea."
+  },
+  {
+    "id": "3",
+    "name": "Attack on Titan",
+    "categoria": "action",
+    "imagen": "../public/imagenes/attack_on_titan_cover.jpeg",
+    "descripcion": "En un mundo donde la humanidad reside dentro de enormes ciudades amuralladas para protegerse de gigantescas criaturas humanoides conocidas como Titanes, Eren Yeager y sus amigos se unen a la lucha contra estos seres monstruosos."
+  },
+  {
+    "id": "4",
+    "name": "Bleach",
+    "categoria": "action",
+    "imagen": "../public/imagenes/bleach_cover.jpg",
+    "descripcion": "Ichigo Kurosaki obtiene las habilidades de un Soul Reaper y debe proteger el mundo de los vivos de los espíritus malignos conocidos como Hollows mientras navega por el mundo espiritual y lucha contra otros seres sobrenaturales."
+  },
+  {
+    "id": "5",
+    "name": "Dragon Ball",
+    "categoria": "action",
+    "imagen": "../public/imagenes/dragon_ball_cover.jpeg",
+    "descripcion": "Sigue las aventuras de Goku mientras entrena en artes marciales y busca las siete místicas Dragon Balls para invocar al dragón que concede deseos, Shenron."
+  },
+  {
+    "id": "6",
+    "name": "Death Note",
+    "categoria": "thriller",
+    "imagen": "../public/imagenes/death_note_cover.jpg",
+    "descripcion": "Cuando Light Yagami descubre una misteriosa libreta que le permite matar a cualquiera cuyo nombre escriba en ella, decide deshacerse del mundo de los criminales, lo que desencadena un juego del gato y el ratón de alto riesgo con un brillante detective."
+  },
+  {
+    "id": "7",
+    "name": "One Punch Man",
+    "categoria": "action",
+    "imagen": "../public/imagenes/one_punch_man_cover.jpg",
+    "descripcion": "Saitama, un héroe que puede derrotar a cualquier oponente con un solo golpe, busca emoción y realización en un mundo lleno de monstruos poderosos y héroes."
+  },
+  {
+    "id": "8",
+    "name": "Fairy Tail",
+    "categoria": "adventure",
+    "imagen": "../public/imagenes/fairy_tail_cover.jpg",
+    "descripcion": "Lucy Heartfilia se une al gremio de magos Fairy Tail y emprende diversas misiones junto a sus amigos, enfrentándose a enemigos poderosos y formando lazos inquebrantables."
+  },
+  {
+    "id": "9",
+    "name": "Fullmetal Alchemist",
+    "categoria": "adventure",
+    "imagen": "../public/imagenes/fullmetal_alchemist_cover.jpg",
+    "descripcion": "Edward y Alphonse Elric buscan la Piedra Filosofal para restaurar sus cuerpos después de un experimento alquímico fallido, lo que los lleva a un viaje lleno de peligros, alquimia y oscuros secretos."
+  },
+  {
+    "id": "10",
+    "name": "Tokyo Ghoul",
+    "categoria": "horror",
+    "imagen": "../public/imagenes/tokyo_ghoul_cover.jpeg",
+    "descripcion": "Ken Kaneki, un estudiante universitario que sobrevive a un encuentro mortal con un ghoul, se transforma en medio ghoul y debe navegar por el peligroso mundo de los ghouls mientras lucha con su nueva identidad."
+  },
+  {
+    "id": "11",
+    "name": "My Hero Academia",
+    "categoria": "action",
+    "imagen": "../public/imagenes/my_hero_academia_cover.jpeg",
+    "descripcion": "En un mundo donde casi todos tienen superpoderes llamados Quirks, Izuku Midoriya sueña con convertirse en un héroe a pesar de nacer sin un Quirk, y se inscribe en la prestigiosa U.A. High School para lograr su objetivo."
+  },
+  {
+    "id": "12",
+    "name": "Hunter x Hunter",
+    "categoria": "adventure",
+    "imagen": "../public/imagenes/hunter_x_hunter_cover.jpeg",
+    "descripcion": "Gon Freecss, un niño joven, aspira a convertirse en un Cazador como su padre y emprende un viaje peligroso para pasar el riguroso Examen de Cazador, encontrando amigos y enemigos en el camino."
+  },
+  {
+    "id": "13",
+    "name": "Black Clover",
+    "categoria": "action",
+    "imagen": "../public/imagenes/black_clover_cover.jpg",
+    "descripcion": "Asta y Yuno, dos huérfanos con sueños de convertirse en el Rey Mago, compiten por convertirse en los caballeros mágicos más fuertes del Reino Trébol y protegerlo de las fuerzas oscuras."
+  },
+  {
+    "id": "14",
+    "name": "Demon Slayer",
+    "categoria": "action",
+    "imagen": "../public/imagenes/demon_slayer_cover.jpeg",
+    "descripcion": "Tanjiro Kamado, un niño de buen corazón, se convierte en un cazador de demonios después de que su familia es masacrada por demonios, y emprende una búsqueda para vengar a su familia y curar a su hermana, que ha sido convertida en demonio."
+  },
+  {
+    "id": "15",
+    "name": "The Promised Neverland",
+    "categoria": "thriller",
+    "imagen": "../public/imagenes/the_promised_neverland_cover.jpg",
+    "descripcion": "Emma, Norman y Ray, tres huérfanos que viven en un orfanato idílico, descubren un oscuro secreto que desmorona su realidad, lo que los lleva a planear una escape de su aparentemente benevolente cuidadora."
+  }
+]
